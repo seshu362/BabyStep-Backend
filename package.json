@@ -1,25 +1,22 @@
 {
-  "name": "backend",
+  "name": "terranxt-backend",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build": "npm run build",
-    "postinstall": "npm rebuild"
+    "build": "npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "engines": {
-    "node": "18.x"
-  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "path": "^0.12.7",
-    "sqlite3": "^5.0.2",
-    "moment": "^2.30.1"
+    "sqlite": "^4.0.19",
+    "sqlite3": "^5.0.2", 
+"moment": "^2.30.1"
   }
 }
