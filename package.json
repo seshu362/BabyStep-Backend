@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "build": "npm run build",
-    "postinstall": "npm rebuild"
+    "postinstall": "npm rebuild" 
   },
   "keywords": [],
   "author": "",
@@ -18,5 +18,8 @@
     "express": "^4.21.2",
     "moment": "^2.30.1",
     "sqlite3": "^5.1.7"
+  },
+  "engines": {
+    "node": "18.x" 
   }
 }
